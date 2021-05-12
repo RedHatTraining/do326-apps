@@ -149,7 +149,7 @@ items:
       type: Git
       git:
         uri: https://github.com/RedHatTraining/do326-apps.git
-        ref: master 
+        ref: main 
       contextDir: node-app-cm/node-app
       secrets: []
     strategy:
