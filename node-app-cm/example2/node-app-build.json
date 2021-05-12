@@ -38,7 +38,7 @@
           "type": "Git",
           "git": {
             "uri": "https://github.com/RedHatTraining/do326-apps.git",
-            "ref": "node-app-cm" 
+            "ref": "master" 
           },
           "contextDir": "node-app-cm/node-app",
           "secrets": []
