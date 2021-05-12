@@ -37,7 +37,8 @@
         "source": {
           "type": "Git",
           "git": {
-            "uri": "https://github.com/RedHatTraining/do326-apps.git"
+            "uri": "https://github.com/RedHatTraining/do326-apps.git",
+            "ref": "node-app-cm"
           },
           "contextDir": "node-app-cm/node-app",
           "secrets": []
@@ -48,7 +49,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "openshift",
-              "name": "nodejs:0.10"
+              "name": "nodejs:8"
             }
           }
         },
