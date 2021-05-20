@@ -1,0 +1,32 @@
+{
+  "name": "restify-mongodb-parks",
+  "description": "A simple mapping application for finding US National Parks and Historic Sites, powered by MongoDB and Leaflet maps",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "config-multipaas": "^0.2.1",
+    "leaflet": "^0.7.7",
+    "mongojs": "^2.3.0",
+    "restify": "^4.0.3"
+  },
+  "devDependencies": {
+    "request": "2.72.0",
+    "tap": "^5.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanj/restify-mongodb-parks.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run initdb",
+    "flushdb": "node bin/flushdb.js",
+    "initdb": "node bin/bootstrap.js"
+  },
+  "main": "server.js"
+}
